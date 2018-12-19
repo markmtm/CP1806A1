@@ -1,0 +1,183 @@
+body {
+    background: #FFFDFD;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+#nav ul {
+	position: center;
+    list-style: none;
+    background-color: #FA5C55;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+#nav li {
+    font-family: 'Bahnschrift', sans-serif;
+	color: #cc0000;
+    font-size: 18px;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+    transition: .3s 
+}
+
+#nav a:hover {
+    background-color: #f92c23;
+}
+
+#nav a.active {
+    background-color: #f92c23;
+    color: #FFFFF;
+    cursor: default;
+}
+
+@media screen {
+    #nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+    }
+    #nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+}
+
+#header {
+	position:relative;
+}
+
+#headerH1 {
+    font-family: "Showcard Gothic";
+    color: #F8CA14;
+    font-size: 30px;
+    margin: 0% auto;
+    text-shadow: 5px 5px 5px  rgba(0,0,0,0.5);
+    padding-top: 3px;
+    text-align: center;
+}
+
+#content {
+	font-family: "Bahnschrift", sans-serif;
+    width: 650px;
+    height: 100%;
+    margin:0 auto;
+    background-color:transparent;
+}
+
+#contentwrapper {
+	margin: 20px;
+}
+
+#content p {
+	line-height: 25px;
+    color:#333333;
+}
+
+#content li {
+	color:#333333;
+}
+
+#content ul {
+	list-style: none;
+}
+
+#content h1 {
+	font-family: "Showcard Gothic", sans-serif;
+    color: #F8CA14;
+    font-size: 20px;
+    margin: 2% auto;
+    text-shadow: 1px 2px 1px  rgba(0,0,0,.5);
+    padding-top: 40px;
+
+}
+
+#content h2 {
+	font-family: "Showcard Gothic", sans-serif;
+	color: #F8CA14;
+    font-size: 35px;
+    margin: 2% auto;
+    text-shadow: 1px 2px 1px  rgba(0,0,0,.5);
+    padding-top: 10px;
+}
+
+#button {
+    padding: 10px 15px 11px;
+    font-size: 18px;
+    background-color: #FA5C55;
+    font-weight: bold;
+    text-shadow: 1px 1px #A9853B;
+    color: #ffffff;
+    border: 1px solid #A9853B;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+
+}
+
+#contactInfo {
+    display: inline-block;
+    width: 70px;
+}
+
+#contactValues {
+    display: inline-block;
+    width: 200px;
+}
+
+#costumes {
+    display: inline-block;
+    width: 230px;
+}
+
+#size {
+    display: inline-block;
+    width: 120px;
+}
+
+#price {
+    display: inline-block;
+    width: 120px;
+}
+
+#image {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 350px;
+    display: inline-block;
+}
+
+#image2 {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 180px;
+    display: inline-block;
+}
+
+#signupImage {
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 350px;
+    display: inline-block;
+}
+
+#indexImage {
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 350px;
+    display: inline-block;
+}
+
+#signupDiv {
+    margin:0 auto;
+    text-align: center;
+}
